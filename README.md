@@ -8,7 +8,8 @@ Log analysis is an app allow user to run report from database by using virtual m
 #### How to open the file? 
 ######  (Example below will be using **vagrant**)
 
-1. Download the app to the folder name **vagrant**.
+1. Download the app to the folder name **vagrant**. 
+    (Unzip the newsdatadb.py.zip file to the same folder)
 2. Open the terminal and then go directly to the location where you store the file
 3.  Before running the command line before, please bring the virtual machine online with`vagrant up`. Then log into it with `vagrant ssh`
 4.  After you saw something like **vagrant@vagrant**, type code below and hit enter.
@@ -42,4 +43,4 @@ $ python newsdatadb.py
     round(((et.errors * 1.00) / st.total), 3) as result
     from statustotal st inner join errortotal et
     on st.date = et.date;
-# logs_analysis
+
